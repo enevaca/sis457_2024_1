@@ -85,4 +85,18 @@ for (int i = 0; i < separar.Length; i++)
 
 foreach (string s in lista) Console.WriteLine($"foreach: {s}");
 
-Console.WriteLine(materia);
+// Funciones/métodos
+
+void saludo(string nombre)
+{
+    Console.WriteLine($"Hola {nombre} desde método");
+}
+
+int suma(int numero1, int numero2)
+{
+    saludo("SIS457"); // llamada a otro método
+    return numero1 + numero2;
+}
+
+int sumatoria = suma(5, 9);
+Console.WriteLine(sumatoria);
