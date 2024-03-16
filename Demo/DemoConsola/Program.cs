@@ -4,6 +4,8 @@
  */
 // Console.WriteLine("Hello, World!");
 
+using DemoConsola;
+
 // Variables
 var variable = "Cualquier valor";
 bool esActivo = false;
@@ -100,3 +102,48 @@ int suma(int numero1, int numero2)
 
 int sumatoria = suma(5, 9);
 Console.WriteLine(sumatoria);
+
+// POO
+Persona persona = new Persona();
+persona.cedulaIdentidad = "123456";
+persona.nombres = "Juan";
+persona.primerApellido = "Pérez";
+persona.segundoApellido = "López";
+persona.fechaNacimiento = DateTime.Parse("2000-04-15");
+persona.celular = 76862782;
+persona.saludar();
+Console.WriteLine($"La edad de {persona.nombres} es {persona.edad()}");
+
+Estudiante estudiante = new Estudiante();
+estudiante.cedulaIdentidad = "654321";
+estudiante.carnetUniversitario = "26-1234";
+estudiante.nombres = "Ruth";
+estudiante.primerApellido = "Copa";
+estudiante.segundoApellido = "Choque";
+estudiante.fechaNacimiento = DateTime.Parse("2002-06-05");
+persona.celular = 76767676;
+estudiante.saludar();
+
+int cantidadPersonas = 2;
+List<Persona> personas = new List<Persona>();
+Console.WriteLine("\n******** Datos de Personas ******");
+
+for (int i = 0; i < cantidadPersonas; i++)
+{
+    Persona p = new Persona();
+    Console.WriteLine($"Introduzca el CI de la persona {i + 1}:");
+    p.cedulaIdentidad = Console.ReadLine();
+
+    Console.WriteLine($"Introduzca los nombre de la persona {i + 1}:");
+    p.nombres = Console.ReadLine();
+
+    Console.WriteLine($"Introduzca el primer apellido de la persona {i + 1}:");
+    p.primerApellido = Console.ReadLine();
+
+    Console.WriteLine($"Introduzca el celular de la persona {i + 1}:");
+    p.celular = Convert.ToInt64(Console.ReadLine());
+
+    personas.Add(p);
+}
+
+foreach (var item in personas) item.saludar();
