@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\democonsolaavanzado\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Interfaz.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Interfaz.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Interfaz.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Interfaz.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Interfaz.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA0wAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T00:30:16.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abstract.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Abstract.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Abstract.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T00:02:42.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Inmutable.cs",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Inmutable.cs",
@@ -30,8 +64,7 @@
               "RelativeToolTip": "DemoConsolaAvanzado\\Inmutable.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAQwAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T14:41:58.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T14:41:58.568Z"
             },
             {
               "$type": "Document",
@@ -41,7 +74,7 @@
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
               "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T14:38:25.18Z",
               "EditorCaption": ""
