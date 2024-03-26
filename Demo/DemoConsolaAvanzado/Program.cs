@@ -1,5 +1,47 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DemoBiblioteca;
 using DemoConsolaAvanzado;
+
+// Biblioteca de Clases / Librerias
+int suma = Calculadora.sumar(6, 7);
+int resta = Calculadora.restar(10, 6);
+int multipliacicacion = Calculadora.multiplicar(2, 3);
+decimal devision = Calculadora.dividir(50, 6);
+Console.WriteLine($"Suma: {suma}, Resta: {resta}");
+
+// Delegados
+static string revertirCadena(string cadena)
+{
+    return new string(cadena.Reverse().ToArray());
+}
+Revertir revertir = revertirCadena;
+Console.WriteLine(revertir("Hola Mundo"));
+
+void imprimir(string cadena)
+{
+    Console.WriteLine($"Delegado Action {cadena}");
+}
+Action<string> imp = imprimir;
+imp("SIS457");
+
+Func<int, int, int> multiplicar = (n1, n2) => n1 * n2;
+int multipliacion = multiplicar(6, 9);
+Console.WriteLine($"Resultado multiplicación: {multipliacion}");
+
+Predicate<int> mayorEdad = edad => edad >= 18;
+bool esMayorEdad = mayorEdad(11);
+Console.WriteLine($"Es mayor de edad: {esMayorEdad}");
+
+// Genéricos
+Generico<string, int> generico = new Generico<string, int>();
+generico.campo = "Cadena de texto";
+generico.campo2 = 2;
+generico.imprimir("Cadena");
+
+Generico<bool, Automovil> generico2 = new Generico<bool, Automovil>();
+generico2.campo = true;
+generico2.campo2 = new Automovil();
+generico2.imprimir(false);
 
 // Interfaces
 // IVehiculo vehiculo = new IVehiculo(); // no se puede instanciar
