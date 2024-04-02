@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0182D731-043A-4450-B9A1-236E5F6FB8AD}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C7B91E1-17A5-47CE-B555-08D885C8D4BF}|DemoPrueba\\DemoPrueba.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\demoprueba\\unittestcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7B91E1-17A5-47CE-B555-08D885C8D4BF}|DemoPrueba\\DemoPrueba.csproj|solutionrelative:demoprueba\\unittestcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0284431-F0EA-41B3-866A-EB29021CC6F6}|DemoBiblioteca\\DemoBiblioteca.csproj|d:\\usfx\\sis457\\sis457_2024_1\\demo\\demobiblioteca\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,23 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTestCalculadora.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoPrueba\\UnitTestCalculadora.cs",
+              "RelativeDocumentMoniker": "DemoPrueba\\UnitTestCalculadora.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoPrueba\\UnitTestCalculadora.cs",
+              "RelativeToolTip": "DemoPrueba\\UnitTestCalculadora.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:00:09.655Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Calculadora.cs",
@@ -28,22 +45,9 @@
               "RelativeDocumentMoniker": "DemoBiblioteca\\Calculadora.cs",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoBiblioteca\\Calculadora.cs",
               "RelativeToolTip": "DemoBiblioteca\\Calculadora.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwAoAAAAVAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T00:08:48.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
-              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Demo\\DemoConsolaAvanzado\\Program.cs",
-              "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:13:17.462Z",
               "EditorCaption": ""
             }
           ]
