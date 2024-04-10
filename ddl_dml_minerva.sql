@@ -93,6 +93,13 @@ ALTER TABLE CompraDetalle ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER
 ALTER TABLE CompraDetalle ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE CompraDetalle ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
 
+ALTER PROC paProductoListar @parametro VARCHAR(50)
+AS
+  SELECT * FROM Producto
+  WHERE estado<>-1 AND descripcion LIKE '%'+REPLACE(@parametro,' ','%')+'%'; 
+
+EXEC paProductoListar 'hoja carta';
+
 -- DML
 INSERT INTO Producto (codigo, descripcion, unidadMedida, saldo, precioVenta)
 VALUES ('POE25', 'Hojas bond tamaño carta', 'Paquete', 0, 22);
@@ -100,7 +107,7 @@ VALUES ('POE25', 'Hojas bond tamaño carta', 'Paquete', 0, 22);
 INSERT INTO Producto (codigo, descripcion, unidadMedida, saldo, precioVenta)
 VALUES ('BKD65', 'Bolígrafo Pilot azul', 'Unidad', 0, 5);
 
-SELECT * FROM Producto;
+SELECT * FROM Producto WHERE estado<>-1;
 
 
 
