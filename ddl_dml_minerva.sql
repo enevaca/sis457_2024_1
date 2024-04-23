@@ -85,6 +85,10 @@ ALTER TABLE Empleado ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME
 ALTER TABLE Empleado ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE Empleado ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
 
+ALTER TABLE Usuario ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE Usuario ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE Usuario ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
 ALTER TABLE Compra ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
 ALTER TABLE Compra ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE Compra ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
@@ -107,8 +111,12 @@ VALUES ('POE25', 'Hojas bond tamaño carta', 'Paquete', 0, 22);
 INSERT INTO Producto (codigo, descripcion, unidadMedida, saldo, precioVenta)
 VALUES ('BKD65', 'Bolígrafo Pilot azul', 'Unidad', 0, 5);
 
+INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
+VALUES('123456', 'Noel', 'Vaca', 'Moreno', 'Calle X', 76862782, 'Admin');
+
+INSERT INTO Usuario(usuario, clave, idEmpleado)
+VALUES('noel', 'i0hcoO/nssY6WOs9pOp5Xw==', 1);
+
 SELECT * FROM Producto WHERE estado<>-1;
 
-
-
-
+SELECT * FROM Usuario;
