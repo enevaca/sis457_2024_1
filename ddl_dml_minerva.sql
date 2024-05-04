@@ -117,6 +117,13 @@ VALUES('123456', 'Noel', 'Vaca', 'Moreno', 'Calle X', 76862782, 'Admin');
 INSERT INTO Usuario(usuario, clave, idEmpleado)
 VALUES('noel', 'i0hcoO/nssY6WOs9pOp5Xw==', 1);
 
+INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
+VALUES('123457', 'Juan', 'Pérez', 'López', 'Calle X', 76862783, 'Cajero');
+
+INSERT INTO Usuario(usuario, clave, idEmpleado)
+VALUES('jperez', 'i0hcoO/nssY6WOs9pOp5Xw==', 2);
+
+
 SELECT * FROM Producto WHERE estado<>-1;
 
 SELECT * FROM Usuario;

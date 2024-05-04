@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebMinerva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f136ee61197915777fde1897c5f3f69962353a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fdddf3bf6851efaf9aca5cecac12f9bc0fdceb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebMinerva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebMinerva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

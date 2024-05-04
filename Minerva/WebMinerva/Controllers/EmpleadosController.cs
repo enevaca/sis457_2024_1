@@ -9,22 +9,22 @@ using WebMinerva.Models;
 
 namespace WebMinerva.Controllers
 {
-    public class ProductosController : Controller
+    public class EmpleadosController : Controller
     {
         private readonly MinervaContext _context;
 
-        public ProductosController(MinervaContext context)
+        public EmpleadosController(MinervaContext context)
         {
             _context = context;
         }
 
-        // GET: Productos
+        // GET: Empleados
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Productos.Where(x => x.Estado != -1).ToListAsync());
+            return View(await _context.Empleados.ToListAsync());
         }
 
-        // GET: Productos/Details/5
+        // GET: Empleados/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,42 +32,39 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var empleado = await _context.Empleados
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (empleado == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(empleado);
         }
 
-        // GET: Productos/Create
+        // GET: Empleados/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Productos/Create
+        // POST: Empleados/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Codigo,Descripcion,UnidadMedida,Saldo,PrecioVenta")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,CedulaIdentidad,Nombres,PrimerApellido,SegundoApellido,Direccion,Celular,Cargo,UsuarioRegistro,FechaRegistro,Estado")] Empleado empleado)
         {
-            if (!string.IsNullOrEmpty(producto.Codigo) && !string.IsNullOrEmpty(producto.Descripcion))
+            if (ModelState.IsValid)
             {
-                producto.UsuarioRegistro = User.Identity.Name;
-                producto.FechaRegistro = DateTime.Now;
-                producto.Estado = 1;
-                _context.Add(producto);
+                _context.Add(empleado);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(empleado);
         }
 
-        // GET: Productos/Edit/5
+        // GET: Empleados/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -75,22 +72,22 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto == null)
+            var empleado = await _context.Empleados.FindAsync(id);
+            if (empleado == null)
             {
                 return NotFound();
             }
-            return View(producto);
+            return View(empleado);
         }
 
-        // POST: Productos/Edit/5
+        // POST: Empleados/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Codigo,Descripcion,UnidadMedida,Saldo,PrecioVenta,UsuarioRegistro,FechaRegistro,Estado")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CedulaIdentidad,Nombres,PrimerApellido,SegundoApellido,Direccion,Celular,Cargo,UsuarioRegistro,FechaRegistro,Estado")] Empleado empleado)
         {
-            if (id != producto.Id)
+            if (id != empleado.Id)
             {
                 return NotFound();
             }
@@ -99,13 +96,12 @@ namespace WebMinerva.Controllers
             {
                 try
                 {
-                    producto.UsuarioRegistro = User.Identity.Name;
-                    _context.Update(producto);
+                    _context.Update(empleado);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductoExists(producto.Id))
+                    if (!EmpleadoExists(empleado.Id))
                     {
                         return NotFound();
                     }
@@ -116,10 +112,10 @@ namespace WebMinerva.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(producto);
+            return View(empleado);
         }
 
-        // GET: Productos/Delete/5
+        // GET: Empleados/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -127,36 +123,34 @@ namespace WebMinerva.Controllers
                 return NotFound();
             }
 
-            var producto = await _context.Productos
+            var empleado = await _context.Empleados
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
+            if (empleado == null)
             {
                 return NotFound();
             }
 
-            return View(producto);
+            return View(empleado);
         }
 
-        // POST: Productos/Delete/5
+        // POST: Empleados/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
-            if (producto != null)
+            var empleado = await _context.Empleados.FindAsync(id);
+            if (empleado != null)
             {
-                producto.Estado = -1;
-                producto.UsuarioRegistro = User.Identity.Name;
-                await _context.SaveChangesAsync();
-                //_context.Productos.Remove(producto);
+                _context.Empleados.Remove(empleado);
             }
 
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductoExists(int id)
+        private bool EmpleadoExists(int id)
         {
-            return _context.Productos.Any(e => e.Id == id);
+            return _context.Empleados.Any(e => e.Id == id);
         }
     }
 }
