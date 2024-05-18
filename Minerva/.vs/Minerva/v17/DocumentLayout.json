@@ -3,36 +3,35 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Minerva/True/SqlTable/dbo.Producto.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\webapiminerva.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\webapiminerva.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webminerva\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A5A58D7-7FEC-415B-A682-970EAF28F23B}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_1\\minerva\\webapiminerva\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428278A4-1F07-4815-AD94-1FF65E2C6641}|WebApiMinerva\\WebApiMinerva.csproj|solutionrelative:webapiminerva\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +41,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Delete.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Delete.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Delete.cshtml",
-              "ViewState": "AQIAACwAAAAAAAAAAAAYwD8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:26:11.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Details.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Details.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Details.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:25:23.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Edit.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Edit.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Edit.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAYwDoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:24:53.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Create.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Create.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Create.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:24:11.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Index.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:23:33.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T00:20:21.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJ0BAAAAAAAAAAAAAK0BAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T23:54:08.601Z",
+              "Title": "dbo.Producto [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Minerva/True/SqlTable/dbo.Producto.sql",
+              "ToolTip": "dbo.Producto [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-18T14:44:03.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAKAAAAAAAAAAAAAnwMoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T23:38:27.486Z",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebApiMinerva\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebApiMinerva\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:21:01.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "WebApiMinerva\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "WebApiMinerva\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAGgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:07:34.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApiMinerva",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\WebApiMinerva.csproj",
+              "RelativeDocumentMoniker": "WebApiMinerva\\WebApiMinerva.csproj",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\WebApiMinerva.csproj",
+              "RelativeToolTip": "WebApiMinerva\\WebApiMinerva.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T14:04:57.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiMinerva\\Program.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Program.cs",
+              "RelativeToolTip": "WebApiMinerva\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:50:02.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiMinerva\\appsettings.json",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\appsettings.json",
+              "RelativeToolTip": "WebApiMinerva\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T13:49:52.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApiMinerva\\WeatherForecast.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApiMinerva\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:48:29.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApiMinerva\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_1\\Minerva\\WebApiMinerva\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApiMinerva\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:47:36.742Z",
               "EditorCaption": ""
             }
           ]
