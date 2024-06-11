@@ -29,17 +29,22 @@
                         </div>
                         <div class="form-group">
                             <label class="control-label">Unidad de Medida</label>
-                            <input asp-for="UnidadMedida" class="form-control" />
+                            <select asp-for="UnidadMedida" class="form-select">
+                                <option>Caja</option>
+                                <option>Docena</option>
+                                <option>Paquete</option>
+                                <option>Unidad</option>
+                            </select>
                             <span asp-validation-for="UnidadMedida" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label class="control-label">Saldo</label>
-                            <input asp-for="Saldo" class="form-control" />
+                            <input type="number" asp-for="Saldo" class="form-control" />
                             <span asp-validation-for="Saldo" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label class="control-label">Precio de Venta</label>
-                            <input asp-for="PrecioVenta" class="form-control" />
+                            <input type="number" asp-for="PrecioVenta" class="form-control" />
                             <span asp-validation-for="PrecioVenta" class="text-danger"></span>
                         </div>
                         <div class="form-group">

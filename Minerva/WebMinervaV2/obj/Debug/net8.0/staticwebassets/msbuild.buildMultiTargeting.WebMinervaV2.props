@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebMinervaV2.props" />
+</Project>
